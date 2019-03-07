@@ -39,7 +39,7 @@ a language we both know (you more than me, but w/e).
 
 **Week of March 11**
 * First iteration of features completed? 
-* Fish pls add, Urn does not know how software development works
+* I guess we can define this further once we figure out tools and make assignments
 
 **Week of March 18** 
 
