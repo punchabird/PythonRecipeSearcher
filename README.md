@@ -36,12 +36,15 @@ a language we both know (you more than me, but w/e).
 **Week of March 4**
 * Finish initial project planning and tools research
 * Assign tasks to Urnfish
+   - Fish: design interface for obtaining user input, retrieve Google search results based on input from user
+   - Urn: process Google search results, return appropriate information to user
 
 **Week of March 11**
-* First iteration of features completed? 
-* I guess we can define this further once we figure out tools and make assignments
+* Phase 1: basic implementation - take input, retrieve search results, return link (print to console)
 
 **Week of March 18** 
+* Phase 2: return link and open page in browser
 
 **Week of March 25** 
+* Phase 3: print recipe to console
 * Project should be completed
