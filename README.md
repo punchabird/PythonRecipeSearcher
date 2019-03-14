@@ -12,6 +12,7 @@ Random recipe generator
 ## Tools we might be able to use
 
 **BeautifulSoup**
+
 [Website](https://www.crummy.com/software/BeautifulSoup/bs4/doc/)
 
 Python library for pulling data out of HTML files. We can use this
@@ -19,12 +20,14 @@ to extract recipe text after selecting a webpage from our recipe
 search. 
 
 **Google**
+
 [Website](https://python-googlesearch.readthedocs.io/en/latest/)
 
 Allows you to make Google searches from Python. BeautifulSoup is
 a dependency. 
 
 **Instructions on how to format output in terminal with Python**
+
 [GeeksforGeeks showing how to do this on Linux](https://www.geeksforgeeks.org/formatted-text-linux-terminal-using-python/)
 
 
