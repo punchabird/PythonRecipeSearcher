@@ -33,6 +33,8 @@ a dependency.
 [HTTP client for for Python. Looks like you can get the HTML page
 of the URL, then use BeautifulSoup to parse.](https://medium.freecodecamp.org/how-to-scrape-websites-with-python-and-beautifulsoup-5946935d93fe)
 
+[Also here](https://www.pythonforbeginners.com/python-on-the-web/web-scraping-with-beautifulsoup)
+
 **Instructions on how to format output in terminal with Python**
 
 [GeeksforGeeks showing how to do this on Linux](https://www.geeksforgeeks.org/formatted-text-linux-terminal-using-python/)
