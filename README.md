@@ -26,6 +26,13 @@ search.
 Allows you to make Google searches from Python. BeautifulSoup is
 a dependency. 
 
+**urllib3**
+
+[Website](https://urllib3.readthedocs.io/en/latest/)
+
+[HTTP client for for Python. Looks like you can get the HTML page
+of the URL, then use BeautifulSoup to parse.](https://medium.freecodecamp.org/how-to-scrape-websites-with-python-and-beautifulsoup-5946935d93fe)
+
 **Instructions on how to format output in terminal with Python**
 
 [GeeksforGeeks showing how to do this on Linux](https://www.geeksforgeeks.org/formatted-text-linux-terminal-using-python/)
