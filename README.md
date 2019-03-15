@@ -5,9 +5,9 @@ Random recipe generator
 1. Take some input specifying a kind of food
 2. Append the string "recipe" to input
 3. Run a Google search on (input + "recipe")
-4. Collect the first 10 results 
-5. Randomly select one of the 10 results
-6.  Output the text of the recipe
+4. Generate a random number 'i' between 1-10
+5. Select i'th Google search result
+6. Output the text of the recipe
 
 ## Tools we might be able to use
 
