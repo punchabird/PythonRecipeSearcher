@@ -7,7 +7,7 @@ Random recipe generator
 3. Run a Google search on (input + "recipe")
 4. Generate a random number 'i' between 1-10
 5. Select i'th Google search result
-6. Output the text of the recipe
+6. Output the link and open the URL in browser
 
 ## Tools we might be able to use
 
