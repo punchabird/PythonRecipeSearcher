@@ -5,7 +5,7 @@ from googlesearch import search
 import webbrowser
 
 #ask what dish we're searching for recipes to
-recipe_request = raw_input("What\'s a dish you'd like to cook? > ") + " recipe"
+recipe_request = input("What\'s a dish you'd like to cook? > ") + " recipe"
 print("Searching for \'" + recipe_request + "\'...")
 
 #generate random number to choose which search result to return
