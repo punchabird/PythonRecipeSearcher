@@ -4,14 +4,11 @@ from bs4 import BeautifulSoup
 from googlesearch import search
 import webbrowser
 
-#ask what dish we're searching for recipes to
-recipe_request = input("What\'s a dish you'd like to cook? > ") + " recipe"
-print("Searching for \'" + recipe_request + "\'...")
-
-
 # generate 10 results per page, return i'th result, stop after that
 doneSearching = False
-while not doneSearching: 
+while not doneSearching:
+	recipe_request = input("What\'s a dish you'd like to cook? > ") + " recipe"
+	print("Searching for \'" + recipe_request + "\'...") 
 	#generate a random number to choose which result to return
 	i = random.randint(0,9) 
 	for url in search(recipe_request, tld="com", num=10, start=i, stop=1):
@@ -20,6 +17,7 @@ while not doneSearching:
 		searchAgain = input("Search for a different recipe (y/n)? > ")
 		if searchAgain == "n":
 			doneSearching = True
+			print("Cool. Let's get cooking!")
 			break
 		
 			
