@@ -5,13 +5,24 @@ from googlesearch import search
 import webbrowser
 
 #ask what dish we're searching for recipes to
-recipe_request = raw_input("What\'s a dish you'd like to cook? > ") + " recipe"
+recipe_request = input("What\'s a dish you'd like to cook? > ") + " recipe"
 print("Searching for \'" + recipe_request + "\'...")
 
-#generate random number to choose which search result to return
-i = random.randint(0,9)
 
 # generate 10 results per page, return i'th result, stop after that
-for url in search(recipe_request, tld="com", num=10, start=i, stop=1):
-    print(url) # search() returns an iterator
-    webbrowser.open(url)
+doneSearching = False
+while not doneSearching: 
+	#generate a random number to choose which result to return
+	i = random.randint(0,9) 
+	for url in search(recipe_request, tld="com", num=10, start=i, stop=1):
+		print(url) # search() returns an iterator
+		webbrowser.open(url)
+		searchAgain = input("Search for a different recipe (y/n)? > ")
+		if searchAgain == "n":
+			doneSearching = True
+			break
+		
+			
+
+
+
