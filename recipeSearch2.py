@@ -14,7 +14,7 @@ def findRecipe():
         return printRecipe(recipeList)
 
 def printRecipe(resultsList):
-    if len(resultsList) > 0:
+    if len(resultsList) > 0: #only spit out a result if the list has stuff
         
         #print a randomly selected list item, open in browser, then delete it from the list    
         i = random.randint(0, len(resultsList) - 1)
@@ -22,6 +22,10 @@ def printRecipe(resultsList):
         webbrowser.open(resultsList[i])
         del resultsList[i]
 
+    else: #start a new search if the list is empty
+        return findRecipe()
+
+def checkIfDone():        
         #make this next part into a different function      
         doneSearching = input("Satisfied with this recipe (y/n)? >")
         if doneSearching == "y":
@@ -32,9 +36,6 @@ def printRecipe(resultsList):
                 return findRecipe()
             else:
                 return printRecipe(recipeList)
-
-
-    
 
     else:
         print("You're out of results! Search again.")
