@@ -9,9 +9,10 @@ recipeList = []
 def findRecipe():
     recipeRequest = input("What\'s a dish you'd like to cook? > ") + " recipe"
     print("Searching for \'" + recipeRequest + "\'...")
-    for url in search(recipeRequest, tld="com", num=10, stop=10, only_standard=True):
-        recipeList.append(url)
-        return printRecipe(recipeList)
+    for url in search(recipeRequest, tld="com", stop=10, only_standard=True):
+        recipeList.append(url)  
+        
+    return printRecipe(recipeList)
 
 def printRecipe(resultsList):
     if len(resultsList) > 0: #only spit out a result if the list has stuff
@@ -42,3 +43,4 @@ def checkIfDone():
 
 #call findRecipe to start it
 findRecipe()
+
