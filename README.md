@@ -1,4 +1,4 @@
-# Generating Random Recipes in Python
+# Searching for Food Recipes Using Python
 I wrote a thing with a bit of help from my girlfriend that takes
 user input from the terminal and searches google for food recipes
 using that input. 
